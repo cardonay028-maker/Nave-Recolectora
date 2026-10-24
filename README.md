@@ -1,9 +1,9 @@
 # Nave Recolectora
 
-Tarea individual de Unity: Scripting tradicional vs Visual Scripting
+Tarea individual de Unity: Scripting tradicional vs Visual Scripting  
 Hecho por: Yair Cardona
 
-![juego](Docs/img/vista_juego.png)
+![juego](Docs/Capturas/vista_juego.png)
 
 ## De qué trata el juego
 
@@ -43,7 +43,7 @@ Lo dividí en dos grupos:
 
 **Recolección**
 
-![grafo recoleccion](Docs/img/grafo_recoleccion.png)
+![grafo recoleccion](Docs/Capturas/grafo_recoleccion.png)
 
 1. `On Trigger Enter 2D` se activa cuando la nave toca algo.
 2. Con `Get Game Object` saco el objeto que tocó y con `Compare Tag` reviso si tiene el tag "Cristal". Eso va a un `If`.
@@ -54,7 +54,7 @@ Lo dividí en dos grupos:
 
 **Ganar**
 
-![grafo ganar](Docs/img/grafo_ganar.png)
+![grafo ganar](Docs/Capturas/grafo_ganar.png)
 
 1. Con `Equal` comparo si `cristales` ya es 5 y lo mando a un `If`.
 2. Si es verdad, con `Set Active` muestro el panel de victoria y con otro `Play One Shot` suena la música de victoria.
@@ -101,7 +101,7 @@ Para este juego cada forma sirvió para algo diferente. El movimiento quedó mej
 
 ```
 Assets/NaveRecolectora/Scripts/NaveMovimiento.cs   -> script de movimiento
-Docs/img/grafo_recoleccion.png                     -> grafo de la recolección
-Docs/img/grafo_ganar.png                           -> grafo de cuando ganas
-Docs/img/vista_juego.png                           -> captura del juego
+Docs/Capturas/grafo_recoleccion.png                -> grafo de la recolección
+Docs/Capturas/grafo_ganar.png                      -> grafo de cuando ganas
+Docs/Capturas/vista_juego.png                      -> captura del juego
 ```
